@@ -3,7 +3,7 @@ import ProjectMain from "./projectMain";
 import ProjectSub from "./projectSub";
 
 function Projects() {
-  const [showSubPage, setShowSubPage] = useState(true);
+  const [showSubPage, setShowSubPage] = useState(false);
 
   const togglePage = () => {
     setShowSubPage(!showSubPage);

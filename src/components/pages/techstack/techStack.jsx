@@ -3,7 +3,7 @@ import TechStackMain from "./techStackMain";
 import TechStackSub from "./techStackSub";
 
 function TechStack() {
-  const [showSubPage, setShowSubPage] = useState(true);
+  const [showSubPage, setShowSubPage] = useState(false);
 
   const togglePage = () => {
     setShowSubPage(!showSubPage);

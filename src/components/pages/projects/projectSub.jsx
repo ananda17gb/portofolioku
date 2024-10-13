@@ -1,6 +1,6 @@
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import ProjectCard from "./projectCard";
 import { projectData } from "./projectData";
 
@@ -45,10 +45,11 @@ function ProjectSub({ togglePage }) {
                   {["Website", "Mobile", "Other"].map((category) => (
                     <li key={category}>
                       <button
-                        className={`text-[#EBDBB2] py-2 px-4 rounded ${selectType === category
+                        className={`text-[#EBDBB2] py-2 px-4 rounded ${
+                          selectType === category
                             ? "bg-[#d5c4a1] font-bold"
                             : "bg-[#282828] hover:bg-[#3c3836] transition"
-                          }`}
+                        }`}
                         onClick={() => setSelectType(category)}
                       >
                         {category}
