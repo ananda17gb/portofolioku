@@ -8,7 +8,7 @@ function Achievements() {
         <div className="grid lg:grid-cols-3 lg:grid-rows-1 md:grid-rows-3 gap-4 py-24 px-4 md:px-10">
           <div className="flex justify-center items-center p-4">
             <div className="">
-              <img src="../../public/images/image 5.png" />
+              <img src="/public/images/image 5.png" />
             </div>
           </div>
           <h1 className="text-[#EBDBB2] text-xl md:text-2xl font-bold row-start-2 col-start-1 md:row-start-1 md:col-start-2 lg:row-start-2 lg:col-start-1 p-2">
@@ -23,7 +23,7 @@ function Achievements() {
           </p>
           <div className="flex justify-center items-center p-4">
             <div className="">
-              <img src="../../public/images/image 6.png" />
+              <img src="/public/images/image 6.png" />
             </div>
           </div>
           <h1 className="text-[#EBDBB2] text-xl md:text-2xl font-bold row-start-4 col-start-1 md:row-start-2 md:col-start-2 lg:row-start-2 lg:col-start-2 p-2">
@@ -37,7 +37,7 @@ function Achievements() {
           </p>
           <div className="flex justify-center items-center p-4">
             <div className="">
-              <img src="../../public/images/MySQL Logo.png" />
+              <img src="/public/images/MySQL Logo.png" />
             </div>
           </div>
           <h1 className="text-[#EBDBB2] text-xl md:text-2xl font-bold row-start-6 col-start-1 md:row-start-3 md:col-start-2 lg:row-start-2 lg:col-start-3 p-2">
