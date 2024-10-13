@@ -104,7 +104,7 @@ function AboutMe() {
           <div className="order-1 lg:order-2">
             <div className="w-[360px] md:w-[600px] flex justify-center">
               <img
-                src="../../public/ananda.png"
+                src="../../public/images/ananda.png"
                 className="w-full h-auto object-contain"
               />
             </div>

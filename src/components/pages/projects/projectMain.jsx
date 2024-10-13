@@ -25,7 +25,7 @@ function ProjectMain({ togglePage }) {
         <div className="flex lg:flex-row flex-col px-4 md:px-36 pt-10 gap-10">
           <div className="flex gap-2 flex-col w-full">
             <div className="md:w-[520px]">
-              <img src="../../public/image 2.png" />
+              <img src="../../public/images/image 2.png" />
             </div>
             <div>
               <h1 className="text-[#EBDBB2] text-xl md:text-2xl font-bold">
@@ -84,7 +84,7 @@ function ProjectMain({ togglePage }) {
               </div>
             </div>
             <div className="w-[800px] md:w-[600px]">
-              <img src="../../public/image 4.png" />
+              <img src="../../public/images/image 4.png" />
             </div>
           </div>
         </div>

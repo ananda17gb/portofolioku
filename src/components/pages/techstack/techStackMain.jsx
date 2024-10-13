@@ -6,14 +6,14 @@ function TechStackMain({ togglePage }) {
   const [isCarousel, setIsCarousel] = useState(false);
 
   const techStackItems = [
-    { name: "CSS3", imgSrc: "../../public/CSS3.png" },
-    { name: "TailwindCSS", imgSrc: "../../public/TailwindCSS.png" },
-    { name: "HTML5", imgSrc: "../../public/HTML5.png" },
-    { name: "JavaScript", imgSrc: "../../public/JavaScript.png" },
-    { name: "React", imgSrc: "../../public/React.png" },
-    { name: "Figma", imgSrc: "../../public/Figma.png" },
-    { name: "Firebase", imgSrc: "../../public/Firebase.png" },
-    { name: "Linux", imgSrc: "../../public/Linux.png" },
+    { name: "CSS3", imgSrc: "../../public/images/CSS3.png" },
+    { name: "TailwindCSS", imgSrc: "../../public/images/TailwindCSS.png" },
+    { name: "HTML5", imgSrc: "../../public/images/HTML5.png" },
+    { name: "JavaScript", imgSrc: "../../public/images/JavaScript.png" },
+    { name: "React", imgSrc: "../../public/images/React.png" },
+    { name: "Figma", imgSrc: "../../public/images/Figma.png" },
+    { name: "Firebase", imgSrc: "../../public/images/Firebase.png" },
+    { name: "Linux", imgSrc: "../../public/images/Linux.png" },
   ];
 
   useEffect(() => {
@@ -34,11 +34,10 @@ function TechStackMain({ togglePage }) {
       </h1>
 
       <div
-        className={` ${
-          isCarousel
+        className={` ${isCarousel
             ? "relative overflow-hidden"
             : "flex flex-wrap justify-center"
-        } px-4 md:px-36 lg:pt-20 py-20 lg:gap-10 md:gap-16`}
+          } px-4 md:px-36 lg:pt-20 py-20 lg:gap-10 md:gap-16`}
       >
         {isCarousel && (
           <div className=" absolute inset-0 flex items-center">
