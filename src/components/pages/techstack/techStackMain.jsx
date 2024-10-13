@@ -6,14 +6,14 @@ function TechStackMain({ togglePage }) {
   const [isCarousel, setIsCarousel] = useState(false);
 
   const techStackItems = [
-    { name: "CSS3", imgSrc: "/public/css3.png" },
-    { name: "TailwindCSS", imgSrc: "/public/tailwindcss.png" },
-    { name: "HTML5", imgSrc: "/public/html5.png" },
-    { name: "JavaScript", imgSrc: "/public/javascript.png" },
-    { name: "React", imgSrc: "/public/react.png" },
-    { name: "Figma", imgSrc: "/public/figma.png" },
-    { name: "Firebase", imgSrc: "/public/firebase.png" },
-    { name: "Linux", imgSrc: "/public/linux.png" },
+    { name: "CSS3", imgSrc: "/css3.png" },
+    { name: "TailwindCSS", imgSrc: "/tailwindcss.png" },
+    { name: "HTML5", imgSrc: "/html5.png" },
+    { name: "JavaScript", imgSrc: "/javascript.png" },
+    { name: "React", imgSrc: "/react.png" },
+    { name: "Figma", imgSrc: "/figma.png" },
+    { name: "Firebase", imgSrc: "/firebase.png" },
+    { name: "Linux", imgSrc: "/linux.png" },
   ];
 
   useEffect(() => {

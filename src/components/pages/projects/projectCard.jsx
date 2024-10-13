@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
             src={`${project.projectImage}`}
             className={` ${
               project.projectType === "Mobile" ||
-              project.projectImage === "../../../../public/noimage.jpg"
+              project.projectImage === "/noimage.jpg"
                 ? "w-64 lg:w-80"
                 : "w-[700px]"
             }`}
