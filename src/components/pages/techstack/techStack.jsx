@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import TechStackMain from "./techStackMain";
 import TechStackSub from "./techStackSub";
 
@@ -8,6 +8,16 @@ function TechStack() {
   const togglePage = () => {
     setShowSubPage(!showSubPage);
   };
+  useEffect(() => {
+    if (showSubPage) {
+      const element = document.getElementById("techstack");
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "auto" });
+        }, 200);
+      }
+    }
+  }, [showSubPage]);
 
   return (
     <>

@@ -11,18 +11,18 @@ function Navbar() {
 
   return (
     <>
-      <nav className="flex items-center h-20 bg-[#7C6F64] fixed top-0 w-svw md:w-full px-4 md:px-8 z-10">
+      <nav className="flex items-center h-20 bg-[#394867] fixed top-0 w-full px-4 md:px-8 z-20">
         <div className="md:hidden flex p-4">
-          <button onClick={toggleBar} className="text-[#EBDBB2]">
+          <button onClick={toggleBar} className="text-[#f1f6f9]">
             <FontAwesomeIcon icon={isOpenBar ? faTimes : faBars} size="xl" />
           </button>
         </div>
         <div
-          className={`absolute top-20 left-0 w-screen bg-[#7C6F64]  md:static md:flex md:justify-center md:gap-4 md:items-center ${
+          className={`absolute top-20 left-0 w-screen bg-[#394867]  md:static md:flex md:justify-center md:gap-4 md:items-center ${
             isOpenBar ? "flex flex-col items-start pl-10" : "hidden"
           }`}
         >
-          <ul className="flex flex-col md:flex-row md:gap-4 bg-[#7C6F64] text-[#EBDBB2] md:text-xl">
+          <ul className="flex flex-col md:flex-row md:gap-4 bg-[#394867] text-[#f1f6f9] md:text-xl">
             <li>
               <a
                 href="#aboutme"

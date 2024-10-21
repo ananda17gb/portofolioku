@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ProjectMain from "./projectMain";
 import ProjectSub from "./projectSub";
 
@@ -8,6 +8,17 @@ function Projects() {
   const togglePage = () => {
     setShowSubPage(!showSubPage);
   };
+
+  useEffect(() => {
+    if (showSubPage) {
+      const element = document.getElementById("projects");
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 200);
+      }
+    }
+  }, [showSubPage]);
 
   return (
     <>
